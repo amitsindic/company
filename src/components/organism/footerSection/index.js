@@ -8,6 +8,7 @@ import AppDownloadCard from "../appDownloadCard";
 import { socailIcon } from "../../../constants/staticData";
 import { listData } from "../../../constants/staticData"; 
 import { twMerge } from "tailwind-merge";
+import { useEffect } from "react"
 
 const FooterSection = ({className}) => {
   const classes = twMerge(
